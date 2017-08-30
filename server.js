@@ -18,7 +18,7 @@ app.get('/Skills.html',function (req,res){
     res.sendFile(path.join(__dirname, 'ui','Skills.html.html'));
 });
 app.get('/Achievments.html',function (req,res){
-    res.sendFile(path.join(__dirname, 'ui','Achievments.html.html'));
+    res.sendFile(path.join(__dirname, 'ui','Achievments.html'));
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
