@@ -13,6 +13,13 @@ app.get('/contact.html',function (req,res){
     res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
 
 });
+
+app.get('/Skills.html',function (req,res){
+    res.sendFile(path.join(__dirname, 'ui','Skills.html.html'));
+});
+app.get('/Achievments.html',function (req,res){
+    res.sendFile(path.join(__dirname, 'ui','Achievments.html.html'));
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
