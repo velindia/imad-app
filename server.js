@@ -12,7 +12,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
 });
 
+app.get('/contact.html',function (req,res){
+    res.send('i am here');
 
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
